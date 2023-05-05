@@ -1,5 +1,5 @@
 .idea
-images
+./images
 .vscode
-index.html
-projects.html
+./index.html
+./projects.html
