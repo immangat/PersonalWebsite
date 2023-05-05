@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Titillium+Web:wght@600&display=swap');
+
 body{
     background-color: black;
     box-sizing: border-box;
@@ -41,11 +43,13 @@ td {
     color: white;
     font-size: 9rem;
     display: block;
+    font-family: 'Monoton', cursive;
 }
 
 #message{
     color:yellow;
     font-size: 3rem;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
