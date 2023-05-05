@@ -1,25 +1,61 @@
 body{
     background-color: black;
+    box-sizing: border-box;
+}
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+td {
+    padding: 10px;
+  }
+
+  .socialMediaIcons {
+    font-size: 32px;
+  }
+  
+#content div{
+    margin: 30px 0;
+
+}
+
+#socials{
+    color:white;
+}
+
+
+#content{
+    height: 100%;
+    width: 100%;
+}
+#title{
+    text-align:left;
 }
 
 #title1{
     color: white;
-    font-size: 9em;
+    font-size: 9rem;
+    display: block;
 }
 
-#title2{
+#message{
     color:yellow;
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 
 @media only screen and (max-width: 600px) {
     #title1{
-        font-size: 2em;
+        font-size: 2rem;
     }
     
     #title2{
-        font-size: 1em;
+        font-size: 1rem;
     }
     
   }
