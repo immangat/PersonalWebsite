@@ -46,6 +46,14 @@ td {
     font-family: 'Monoton', cursive;
 }
 
+.fa-github:hover{
+    color:yellow !important;
+ }
+
+ .fa-linkedin:hover{
+    color:yellow !important;
+ }
+
 #message{
     color:yellow;
     font-size: 3rem;
